@@ -1,0 +1,19 @@
+{
+    "name": "node-tester",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^1.18.6"
+    },
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}
