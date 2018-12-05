@@ -1,0 +1,11 @@
+sudo apt update
+sudo apt -y install nginx
+sudo ufw enable
+sudo ufw allow 'Nginx FULL'
+cd ~
+curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt -y install nodejs
+nodejs -v
+npm -v
+sudo apt -y install build-essential
